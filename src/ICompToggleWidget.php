@@ -1,6 +1,6 @@
 <?php
 
-namespace alexeevdv\bootstrap;
+namespace dbfernandes\bootstrap;
 
 use Yii;
 use yii\helpers\ArrayHelper;
@@ -12,7 +12,7 @@ use yii\widgets\InputWidget;
  * Class BootstrapToggleWidget
  * @package alexeevdv\bootstrap
  */
-class BootstrapToggleWidget extends InputWidget
+class ICompToggleWidget extends InputWidget
 {
     /**
      * @var string
