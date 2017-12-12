@@ -1,8 +1,6 @@
 yii2-bootstrap-toggle
 ===========
 
-[![Build Status](https://travis-ci.org/alexeevdv/yii2-bootstrap-toggle.svg?branch=master)](https://travis-ci.org/alexeevdv/yii2-bootstrap-toggle)
-
 Yii2 extension to render bootstrap toggle widget instead of checkbox.
 
 ![Screenshot](screenshot.jpg)
@@ -17,13 +15,13 @@ The preferred way to install this extension is through [composer](https://getcom
 Either run
 
 ```
-$ php composer.phar require alexeevdv/yii2-bootstrap-toggle ^1.0
+$ php composer.phar require dbfernandes/yii2-icomp-toggle dev-master
 ```
 
 or add
 
 ```
-"alexeevdv/yii2-bootstrap-toggle": "^1.0"
+"dbfernandes/yii2-icomp-toggle": "dev-master"
 ```
 
 to the ```require``` section of your `composer.json` file.
@@ -32,20 +30,20 @@ to the ```require``` section of your `composer.json` file.
 
 ### In active form
 ```php
-use alexeevdv\bootstrap\BootstrapToggleWidget;
+use dbfernandes\icomp\ICompToggleWidget;
 
 //...
-echo $form->field($model, 'attribute')->widget(BootstrapToggleWidget::className());
+echo $form->field($model, 'attribute')->widget(ICompToggleWidget::className());
 //...
 ```
 
 ### Standalone widget
 
 ```php
-use alexeevdv\bootstrap\BootstrapToggleWidget;
+use dbfernandes\icomp\ICompToggleWidget;
 
 //...
-BootstrapToggleWidget::widget([
+IcompToggleWidget::widget([
     'name' => 'is_enabled',
     'value' => false,
 ]);
@@ -55,7 +53,7 @@ BootstrapToggleWidget::widget([
 ## Options
 
 ```php
-BootstrapToggleWidget::widget([
+ICompToggleWidget::widget([
 
     /**
      * Wrapper tag name. If set to false no tag will be rendered

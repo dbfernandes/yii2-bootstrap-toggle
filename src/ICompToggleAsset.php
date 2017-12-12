@@ -1,6 +1,6 @@
 <?php
 
-namespace dbfernandes\bootstrap;
+namespace dbfernandes\icomp;
 
 use yii\web\AssetBundle;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace dbfernandes\bootstrap;
+namespace dbfernandes\icomp;
 
 use Yii;
 use yii\helpers\ArrayHelper;
@@ -9,8 +9,8 @@ use yii\helpers\Json;
 use yii\widgets\InputWidget;
 
 /**
- * Class BootstrapToggleWidget
- * @package alexeevdv\bootstrap
+ * Class ICompToggleWidget
+ * @package dbfernandes\icomp
  */
 class ICompToggleWidget extends InputWidget
 {
@@ -58,7 +58,7 @@ class ICompToggleWidget extends InputWidget
      */
     public function run()
     {
-        BootstrapToggleAsset::register($this->getView());
+        ICompToggleAsset::register($this->getView());
 
         $pluginOptions = ArrayHelper::merge([
             'on' => $this->labelEnabled,
