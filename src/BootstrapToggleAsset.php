@@ -1,14 +1,14 @@
 <?php
 
-namespace alexeevdv\bootstrap;
+namespace dbfernandes\bootstrap;
 
 use yii\web\AssetBundle;
 
 /**
- * Class BootstrapToggleWidgetAsset
+ * Class ICompToggleWidgetAsset
  * @package backend\assets
  */
-class BootstrapToggleAsset extends AssetBundle
+class ICompToggleAsset extends AssetBundle
 {
     public $sourcePath = '@bower/bootstrap-toggle';
 
