@@ -13,11 +13,11 @@ class BootstrapToggleAsset extends AssetBundle
     public $sourcePath = '@bower/bootstrap-toggle';
 
     public $css = [
-        'css/bootstrap-toggle.css',
+        'css/bootstrap2-toggle.css',
     ];
 
     public $js = [
-        'js/bootstrap-toggle.js',
+        'js/bootstrap2-toggle.js',
     ];
 
     public $depends = [
